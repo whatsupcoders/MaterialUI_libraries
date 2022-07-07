@@ -5,6 +5,8 @@ Material Design is a design standard for creating and designing websites and app
 
 Material design concept was inspired by paper and ink in the physical world. As paper exists in three dimensions having shadows and can be structured in different ways same way material design works. It removed the flat UI's with three dimensional designs.
 
+<img src="screenshots/materialUI.png" >
+
 # What is MaterialUI?
 # Benefits
 # Typical Use Cases
