@@ -9,6 +9,12 @@ Material design concept was inspired by paper and ink in the physical world. As 
 
 # What is MaterialUI?
 # Benefits
+
+* Offers an element of flexibility.
+* Material Design provides a clean and intuitive interface.
+* Can be applied to complex and rare use cases.
+* Having a vast set of guidelines and documentation.
+
 # Typical Use Cases
 # Usage Instructions
 # List of Libraries
@@ -23,27 +29,25 @@ If any option is already selected and you will click on any other option then th
 
 In the image below **One** is *selected*, **Two** & **Three** are *deselected*.
 
-<img src="screenshots/RadioButtonExample.png" width="100" height="100">
+<img src="screenshots/radioButtons_Example.png" width="100" height="100">
 
 ## 2. Benefits
 
-* Offers an element of flexibility.
-* Material Design provides a clean and intuitive interface.
-* Can be applied to complex and rare use cases.
-* Having a vast set of guidelines and documentation.
+* User can see all options at once.
+* Quicker and Easier to use.
 
 ## 3. Typical UseCases:
 
 MaterialRadio library can be implemented in most of the commonly used applications where users have to select only one option out of many. Below are some of the examples:
 
-<img src="screenshots/usecase1.png" width="200" height="200"><img src="screenshots/usecase2.png" width="200" height="200"><img src="screenshots/usecase3.png" width="200" height="200">
+<img src="screenshots/radioButtons_usecase1.PNG" width="200" height="200"><img src="screenshots/radioButtons_usecase2.PNG" width="200" height="200"><img src="screenshots/radioButtons_usecase3.PNG" width="200" height="200">
 
 ## 4. List of Features:
 
 There are few features of Radio buttons listed below:
 
 ***1. Enabled:*** Radio button can be selected. (Vastly used in application)
-```
+```ts
 RadioButton({
     model: this.radioModel1,
     onCheckChange: this.onRadioCheck
@@ -51,7 +55,7 @@ RadioButton({
 ```
 
 ***2. Disabled:*** Radio button can't be selected.
-```
+```ts
 aboutToAppear() {
     this.radioModel2.setDisabled(true);
 }
@@ -62,7 +66,7 @@ RadioButton({
 ```
 
 ***3. Checked and Enabled:*** Radio button will be selected by default. While clicking the dot will show some ripple effect.
-```
+```ts
 RadioButton({
     model: this.radioModel3,
     checked: true,
@@ -71,7 +75,7 @@ RadioButton({
 ```
 
 ***4. Checked and Disabled:*** Radio button will be selected and can't be deselected. This button appears a little bit off color.
-```
+```ts
 aboutToAppear() {
     this.radioModel4.setDisabled(true);
 }
@@ -84,36 +88,37 @@ RadioButton({
 
 Please refer below Image: 
 
-<img src="screenshots/Types.png" width="300" height="300">
+<img src="screenshots/radioButtons_Types.PNG" width="300" height="300">
 
-## 5. Download & Install:
+## 5. Usage Instructions:
 
-Install using npm: 
+### 1. Add dependencies:
+
+Add following to the dependencies in package.json file in entry folder of your project:
+
+```json
+{
+    "dependencies": {
+    "@ohos/material-radio": "file:../materialradio"
+  }
+}
 ```
-npm i ohos-material-radio
-```
 
-Details about OpenHarmony NPM environment configuration, click [here](https://gitee.com/openharmony-tpc/docs/blob/master/OpenHarmony_npm_usage.md). 
+### 2. Import files:
 
-<hr/>
-
-## 6. Usage Instructions:
-
-1. Import files and code dependencies
-
-```ets
+```ts
 import { RadioButton, RadioGroup, RadioOption, RadioModel }  from '@ohos/material-radio'
 ```
 
-2. Initialize model data
+### 3. Initialize model data:
 
-```
+```ts
 private radioModel: RadioModel = new RadioModel(1, "Radio Label")
 ```
 
-3. Code for creating radio button
+### 4. Code for creating radio button:
 
-```
+```ts
 RadioButton({
     checked: true,
     model: this.radioModel,
@@ -123,11 +128,11 @@ RadioButton({
 })
 ```
 
-<img src="screenshots/Radio%20Buttons.png" width="300" height="500">
+<img src="screenshots/radioButtons_Radio-Buttons.png" width="300" height="500">
 
-4. Code for creating radio group
+### 5. Code for creating radio group:
 
-```
+```ts
 RadioGroup(
     {
         selectedRadioId: 1,
@@ -139,9 +144,9 @@ RadioGroup(
 )
 ```
 
-<img src="screenshots/Radio%20Group.png" width="300" height="500">
+<img src="screenshots/radioButtons_Radio-Group.png" width="300" height="500">
 
-## 7. Library Features:
+## 6. Library Features:
 
 ### Feature-1: 
 
@@ -149,7 +154,7 @@ RadioGroup(
 
 ***Code Snippet:***
 
-```
+```ts
 private radioModel: RadioModel = new RadioModel(1, “Radio Button”)
 radioModel.setRingColor(Color.Blue);
 radioModel.setDisabled(false);
@@ -177,7 +182,7 @@ Below are list of properties available:
 
 ***Screenshot:***
 
-<img src="screenshots/feature1.png" width="300" height="300">
+<img src="screenshots/radioButtons_feature1.PNG" width="300" height="300">
 
 <br>
 
@@ -187,7 +192,7 @@ Below are list of properties available:
 
 ***Code Snippet:***
 
-```
+```ts
 private radioOptions: RadioOption [] = [
     new RadioOption(1, “Option 1”),
     new RadioOption(2, “Option 2”),
@@ -207,7 +212,9 @@ In the above code one Radio Group was created with 3 sets of options. By default
 
 ***Screenshot:***
 
-<img src="screenshots/feature-2.jpg" width="300" height="500">
+<img src="screenshots/radioButtons_feature-2.jpg" width="300" height="500">
+
+*Note: This library is useful for providing material designs effects in radio button/group components. We can also give other specifications like whether the radio button is checked, disabled and a callback function to listen for changes on the radio button check status.*
 
 # 2. Sliders
 
@@ -407,7 +414,7 @@ A Switch is like a circular space on a small line or inside a cylindrical  conta
 
 Below is an example of a switch:
 
-<img src="screenshots/Example.PNG" width="200" height="100">
+<img src="screenshots/switch_Example.PNG" width="200" height="100">
 
 Developers can develop their custom switch containing text, icon, animation etc.
 
@@ -419,7 +426,7 @@ Developers can develop their custom switch containing text, icon, animation etc.
 
 MaterialSwitches can be implemented in most of the commonly used applications where users need to either enable or disable any functionality. Below are some of the examples:
 
-<img src="screenshots/usecase1.PNG" width="231" height="258"> <img src="screenshots/usecase2.PNG" width="231" height="258">s
+<img src="screenshots/switch_usecase1.PNG" width="231" height="258"> <img src="screenshots/switch_usecase2.PNG" width="231" height="258">s
 
 ## 4. List of Features:
 
@@ -435,36 +442,37 @@ There are few features of Radio buttons listed below:
 
 Please refer below Image: 
 
-<img src="screenshots/featuresList.PNG" width="313" height="343">
+<img src="screenshots/switch_featuresList.PNG" width="313" height="343">
 
-## 5. Download & Install:
+## 5. Usage Instructions:
 
-Install using npm: 
+### 1. Add dependencies:
+
+Add following to the dependencies in package.json file in entry folder of your project:
+
+```json
+{
+    "dependencies": {
+    "@ohos/material-switch": "file:../materialswitch"
+  }
+}
 ```
-npm i @ohos/material-switch
-```
 
-Details about OpenHarmony NPM environment configuration, click [here](https://gitee.com/openharmony-tpc/docs/blob/master/OpenHarmony_npm_usage.md). 
+### 2. Import files:
 
-<hr/>
-
-## 6. Usage Instructions:
-
-1. Import files and code dependencies
-
-```
+```ts
 import { Switch, SwitchModel }  from "@ohos/material-switch"
 ```
 
-2. Initialize switch model data
+### 3. Initialize switch model data:
 
-```
+```ts
 private model: SwitchModel.Model = new SwitchModel.Model();
 ```
 
-3. Code for creating default switch
+### 4. Code for creating default switch:
 
-```
+```ts
 this.model.reset()
 
 Switch({
@@ -476,11 +484,11 @@ Switch({
 })
 ```
 
-<img src="screenshots/defaultSwitches.png" width="517" height="250">
+<img src="screenshots/switch_defaultSwitches.png" width="517" height="250">
 
-4. Code for creating custom switch with icon
+### 5. Code for creating custom switch with icon:
 
-```
+```ts
     this.model.reset()
     this.model.setSwitchId(1)
     this.model.setWithIcon(true)
@@ -496,9 +504,9 @@ Switch({
 })
 ```
 
-<img src="screenshots/customizedSwitches.png" width="492" height="272">
+<img src="screenshots/switch_customizedSwitches.png" width="492" height="272">
 
-## 7. Library Features:
+## 6. Library Features:
 
 ### Feature-1: 
 
@@ -506,7 +514,7 @@ Switch({
 
 ***Code Snippet:***
 
-```
+```ts
 updateModelForFirst() {
     this.switchModel1.reset()
     this.switchModel1.setSwitchId(1)
@@ -536,7 +544,7 @@ In above code one switch was created whose all attributes values were resetted t
 
 ***Screenshot:***
 
-<img src="screenshots/feature1.gif" width="246" height="460">
+<img src="screenshots/switch_feature1.gif" width="246" height="460">
 
 <br>
 
@@ -546,7 +554,7 @@ In above code one switch was created whose all attributes values were resetted t
 
 ***Code Snippet:***
 
-```
+```ts
 updateModelForFourth() {
     this.switchModel4.reset()
     this.switchModel4.setSwitchId(4)
@@ -580,8 +588,9 @@ In above code one customized switch was created whose all attributes values were
 
 ***Screenshot:***
 
-<img src="screenshots/feature2.gif" width="246" height="460">
-This library is for using toggle switches that can be customized based on colors, an icon passed by the user and also be set to disabled or On/Off state.
+<img src="screenshots/switch_feature2.gif" width="246" height="460">
+
+*Note: This library is for using toggle switches that can be customized based on colors, an icon passed by the user and also be set to disabled or On/Off state.*
 
 # 4. Checkboxs
 # 5. TextFields
