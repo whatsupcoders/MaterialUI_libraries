@@ -104,7 +104,7 @@ Add following to the dependencies in package.json file in entry folder of your p
 }
 ```
 
-2. Import files and code dependencies
+2. Import files
 
 ```ts
 import { RadioButton, RadioGroup, RadioOption, RadioModel }  from '@ohos/material-radio'
@@ -458,7 +458,7 @@ Add following to the dependencies in package.json file in entry folder of your p
 }
 ```
 
-2. Import files and code dependencies
+2. Import files
 
 ```ts
 import { Switch, SwitchModel }  from "@ohos/material-switch"
