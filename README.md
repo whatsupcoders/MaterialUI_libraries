@@ -40,7 +40,7 @@ In the image below **One** is *selected*, **Two** & **Three** are *deselected*.
 
 MaterialRadio library can be implemented in most of the commonly used applications where users have to select only one option out of many. Below are some of the examples:
 
-<img src="screenshots/radioButtons_usecase1.png" width="200" height="200"><img src="screenshots/radioButtons_usecase2.png" width="200" height="200"><img src="screenshots/radiobuttons_usecase3.png" width="200" height="200">
+<img src="screenshots/radioButtons_usecase1.PNG" width="200" height="200"><img src="screenshots/radioButtons_usecase2.PNG" width="200" height="200"><img src="screenshots/radioButtons_usecase3.PNG" width="200" height="200">
 
 ## 4. List of Features:
 
@@ -88,7 +88,7 @@ RadioButton({
 
 Please refer below Image: 
 
-<img src="screenshots/radioButtons_Types.png" width="300" height="300">
+<img src="screenshots/radioButtons_Types.PNG" width="300" height="300">
 
 ## 5. Download & Install:
 
