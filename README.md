@@ -104,19 +104,19 @@ Add following to the dependencies in package.json file in entry folder of your p
 }
 ```
 
-2. Import files
+2. Import files:
 
 ```ts
 import { RadioButton, RadioGroup, RadioOption, RadioModel }  from '@ohos/material-radio'
 ```
 
-3. Initialize model data
+3. Initialize model data:
 
 ```ts
 private radioModel: RadioModel = new RadioModel(1, "Radio Label")
 ```
 
-4. Code for creating radio button
+4. Code for creating radio button:
 
 ```ts
 RadioButton({
@@ -130,7 +130,7 @@ RadioButton({
 
 <img src="screenshots/radioButtons_Radio-Buttons.png" width="300" height="500">
 
-5. Code for creating radio group
+5. Code for creating radio group:
 
 ```ts
 RadioGroup(
@@ -458,19 +458,19 @@ Add following to the dependencies in package.json file in entry folder of your p
 }
 ```
 
-2. Import files
+2. Import files:
 
 ```ts
 import { Switch, SwitchModel }  from "@ohos/material-switch"
 ```
 
-3. Initialize switch model data
+3. Initialize switch model data:
 
 ```ts
 private model: SwitchModel.Model = new SwitchModel.Model();
 ```
 
-4. Code for creating default switch
+4. Code for creating default switch:
 
 ```ts
 this.model.reset()
@@ -486,7 +486,7 @@ Switch({
 
 <img src="screenshots/switch_defaultSwitches.png" width="517" height="250">
 
-5. Code for creating custom switch with icon
+5. Code for creating custom switch with icon:
 
 ```ts
     this.model.reset()
