@@ -181,7 +181,7 @@ Below are list of properties available:
 
 ***Screenshot:***
 
-<img src="screenshots/radioButtons_feature1.png" width="300" height="300">
+<img src="screenshots/radioButtons_feature1.PNG" width="300" height="300">
 
 <br>
 
