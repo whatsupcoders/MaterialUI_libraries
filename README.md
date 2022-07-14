@@ -29,7 +29,7 @@ If any option is already selected and you will click on any other option then th
 
 In the image below **One** is *selected*, **Two** & **Three** are *deselected*.
 
-<img src="screenshots/radiobuttons_Example.png" width="100" height="100">
+<img src="screenshots/radioButtons_Example.png" width="100" height="100">
 
 ## 2. Benefits
 
@@ -40,7 +40,7 @@ In the image below **One** is *selected*, **Two** & **Three** are *deselected*.
 
 MaterialRadio library can be implemented in most of the commonly used applications where users have to select only one option out of many. Below are some of the examples:
 
-<img src="screenshots/radiobuttons_usecase1.png" width="200" height="200"><img src="screenshots/radiobuttons_usecase2.png" width="200" height="200"><img src="screenshots/radiobuttons_usecase3.png" width="200" height="200">
+<img src="screenshots/radioButtons_usecase1.png" width="200" height="200"><img src="screenshots/radioButtons_usecase2.png" width="200" height="200"><img src="screenshots/radiobuttons_usecase3.png" width="200" height="200">
 
 ## 4. List of Features:
 
@@ -88,7 +88,7 @@ RadioButton({
 
 Please refer below Image: 
 
-<img src="screenshots/radiobuttons_Types.png" width="300" height="300">
+<img src="screenshots/radioButtons_Types.png" width="300" height="300">
 
 ## 5. Download & Install:
 
@@ -127,7 +127,7 @@ RadioButton({
 })
 ```
 
-<img src="screenshots/radiobuttons_Radio-Buttons.png" width="300" height="500">
+<img src="screenshots/radioButtons_Radio-Buttons.png" width="300" height="500">
 
 4. Code for creating radio group
 
@@ -143,7 +143,7 @@ RadioGroup(
 )
 ```
 
-<img src="screenshots/radiobuttons_Radio-Group.png" width="300" height="500">
+<img src="screenshots/radioButtons_Radio-Group.png" width="300" height="500">
 
 ## 7. Library Features:
 
@@ -181,7 +181,7 @@ Below are list of properties available:
 
 ***Screenshot:***
 
-<img src="screenshots/radiobuttons_feature1.png" width="300" height="300">
+<img src="screenshots/radioButtons_feature1.png" width="300" height="300">
 
 <br>
 
@@ -211,7 +211,7 @@ In the above code one Radio Group was created with 3 sets of options. By default
 
 ***Screenshot:***
 
-<img src="screenshots/radiobuttons_feature-2.jpg" width="300" height="500">
+<img src="screenshots/radioButtons_feature-2.jpg" width="300" height="500">
 
 # 2. Sliders
 
