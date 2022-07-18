@@ -8,6 +8,11 @@ Material design concept was inspired by paper and ink in the physical world. As 
 <img src="screenshots/materialUI.png" >
 
 # What is MaterialUI?
+
+Material is an adaptable design system that is backed by open-source code that helps to build high quality digital experiences. From design to components, Material can help you build products faster. Material Guidelines provides the best practices and use Interface design, it also as a well-defined platform guidelines that helps you cover all platforms.
+
+As you might know the components being the basic building block making product usable and functional and each component comes with a well-designed interaction pattern.
+
 # Benefits
 
 * Offers an element of flexibility.
