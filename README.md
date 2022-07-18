@@ -14,6 +14,11 @@ Material is an adaptable design system that is backed by open-source code that h
 As you might know the components being the basic building block making product usable and functional and each component comes with a well-designed interaction pattern.
 
 # Benefits
+Let's see more granular benefits of using Material 
+1. Three Dimensional effects that makes interaction and hierarchy simple.
+2. The design are highly intuitive thus making the learning curve easy.
+3. Imbibing animations is smooth using material.
+4. Easy conceptual models close enough to make the experience seamless.
 
 # Typical Use Cases
 
