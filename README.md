@@ -21,6 +21,9 @@ Let's see more granular benefits of using Material
 4. Easy conceptual models close enough to make the experience seamless.
 
 # Typical Use Cases
+<img src="screenshots/Schedule meeting.png" >
+
+<img src="screenshots/Login&Signup.png" >
 
 # Usage Instructions
 
